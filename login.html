@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>GameSafari.Fun</title>
+</head>
+
+<body>
+    <div class="top">
+        <div class="illustration-1">
+            <img class="illustration-1-img" src="img/other/illustration-1.png" alt="Illustration">
+            <img class="subtract-1" src="img/other/Subtract-1.png" alt="Subtract">
+        </div>
+        <div class="illustration-2">
+            <img class="illustration-2-img" src="img/other/illustration-2.png" alt="Illustration">
+            <img class="subtract-2" src="img/other/Subtract-2.png" alt="Subtract">
+        </div>
+    </div>
+    <header id="header">
+        <div class="header-left">
+            <a class="btn" href="index.html"><img src="img/other/lion.png" alt="Lion">New Games</a>
+            <a class="btn" href="index.html"><img src="img/other/diamond.png" alt="Diamond">Best Games</a>
+            <a class="btn" href="index.html"><img src="img/other/fire.png" alt="Fire">Hot Games</a>
+        </div>
+        <div class="logo">
+            <a href="index.html"><img src="img/other/logo.png" alt="Game Safari Logo"></a>
+        </div>
+        <div class="header-right">
+            <div class="dropdown">
+                <a class="dropbtn" onclick="myFunction()"><img src="img/other/shield.png" alt="Shield">All Tags</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Animals Games</a>
+                    <a href="#">Boys Games</a>
+                    <a href="#">Cars Games</a>
+                    <a href="#">Girls Games</a>
+                    <a href="#">Kids Games</a>
+                    <a href="#">Matching Games</a>
+                    <a href="#">Puzzle Games</a>
+                    <a href="#">Skill Games</a>
+                    <a href="#">Surgery Games</a>
+                </div>
+            </div>
+            <form action="#">
+                <input class="search-box" type="text" placeholder="Search" name="search">
+                <button class="btn-search" type="submit"><img src="img/other/search.png" alt="Search"></button>
+            </form>
+        </div>
+
+        <!--Responsive Menu-->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <p>Menu</p>
+            <a href="#">New games</a>
+            <a href="#">Best games</a>
+            <a href="#">Hot games</a>
+            <a href="#">Animals games</a>
+            <a href="#">Cards games</a>
+            <a href="#">Girls games</a>
+            <a href="#">Kids games</a>
+            <a href="#">Matching games</a>
+            <a href="#">Puzzle games</a>
+            <a href="#">Skill games</a>
+            <a href="#">Surgery games</a>
+        </div>
+        <span class="menu-btn" style="cursor:pointer" onclick="openNav()">&#9776;</span>
+        <!--End of Responsive Menu-->
+
+    </header>
+
+    <section class="section-games">
+        <div class="games-left-side games-left-side-login">
+            <div class="ad-content-left-side">
+                <img src="img/other/Ad 190x733.png" alt="Ad">
+            </div>
+        </div>
+        <div class="games-main login-page">
+            <h1>Publisher login</h1>
+            <form class="login-form" action="#">
+                <input type="text" id="suername" name="username" placeholder="username">
+                <input type="password" id="password" name="password" placeholder="password">
+                <input class="btn-login" type="submit" value="Enter">
+            </form>
+            <!--Mobile ads-->
+            <div class="mobile-ads-game-page">
+                <div class="games-ad-h">
+                    <img src="img/other/Ad 320x160.png" alt="Ad">
+                </div>
+                <div class="games-ad-h">
+                    <img src="img/other/Ad 320x160.png" alt="Ad">
+                </div>
+            </div>
+            <!--End of Mobile ads-->
+        </div>
+        <div class="games-right-side games-right-side-login">
+            <div class="ad-content-right-side">
+                <img src="img/other/Ad 190x733.png" alt="Ad">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-info">
+            <a href="sdk.html">For developers</a>
+            <a href="login.html">For publishers</a>
+            <a href="sdk.html">SDK</a>
+        </div>
+        <div class="footer-copy">
+            <p>Game safari &copy; 2020</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
